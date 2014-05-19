@@ -53,8 +53,8 @@ Grid.prototype.cellsAvailable = function () {
 };
 
 // Check if the specified cell is taken
-Grid.prototype.cellAvailable = function (cell) {
-  return !this.cellOccupied(cell);
+//Grid.prototype.cellAvailable = function (cell) {
+  //return !this.cellOccupied(cell);
 };
 
 Grid.prototype.cellOccupied = function (cell) {
